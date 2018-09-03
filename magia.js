@@ -28,6 +28,11 @@ $(".Kontakt").click(function() {
       scrollTop: $(".kontakt").offset().top },
       'slow');
 });
+$(".Projekty").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".projects").offset().top },
+      'slow');
+});
 
 // Chart start
 var ctx = document.getElementById("techsChart").getContext('2d');
